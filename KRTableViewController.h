@@ -1,5 +1,5 @@
 //
-//  KRViewController.h
+//  KRTableViewController.h
 //  UITableViewControllerChallengeSolution
 //
 //  Created by Kevin Rückher on 23.06.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KRViewController : UIViewController
+@interface KRTableViewController : UITableViewController
 
 @end

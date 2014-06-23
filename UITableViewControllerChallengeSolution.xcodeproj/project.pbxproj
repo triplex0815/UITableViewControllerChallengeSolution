@@ -14,13 +14,13 @@
 		0A736BD719587CCD007BDB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A736BD619587CCD007BDB92 /* main.m */; };
 		0A736BDB19587CCD007BDB92 /* KRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A736BDA19587CCD007BDB92 /* KRAppDelegate.m */; };
 		0A736BDE19587CCD007BDB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A736BDC19587CCD007BDB92 /* Main.storyboard */; };
-		0A736BE119587CCD007BDB92 /* KRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A736BE019587CCD007BDB92 /* KRViewController.m */; };
 		0A736BE319587CCD007BDB92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A736BE219587CCD007BDB92 /* Images.xcassets */; };
 		0A736BEA19587CCD007BDB92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A736BE919587CCD007BDB92 /* XCTest.framework */; };
 		0A736BEB19587CCD007BDB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A736BCA19587CCD007BDB92 /* Foundation.framework */; };
 		0A736BEC19587CCD007BDB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A736BCE19587CCD007BDB92 /* UIKit.framework */; };
 		0A736BF419587CCD007BDB92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A736BF219587CCD007BDB92 /* InfoPlist.strings */; };
 		0A736BF619587CCD007BDB92 /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A736BF519587CCD007BDB92 /* UITableViewControllerChallengeSolutionTests.m */; };
+		0A736C0119587CEF007BDB92 /* KRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A736C0019587CEF007BDB92 /* KRTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		0A736BD919587CCD007BDB92 /* KRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAppDelegate.h; sourceTree = "<group>"; };
 		0A736BDA19587CCD007BDB92 /* KRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAppDelegate.m; sourceTree = "<group>"; };
 		0A736BDD19587CCD007BDB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A736BDF19587CCD007BDB92 /* KRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRViewController.h; sourceTree = "<group>"; };
-		0A736BE019587CCD007BDB92 /* KRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRViewController.m; sourceTree = "<group>"; };
 		0A736BE219587CCD007BDB92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A736BE819587CCD007BDB92 /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A736BE919587CCD007BDB92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0A736BF119587CCD007BDB92 /* UITableViewControllerChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		0A736BF319587CCD007BDB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A736BF519587CCD007BDB92 /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		0A736BFF19587CEF007BDB92 /* KRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRTableViewController.h; path = ../KRTableViewController.h; sourceTree = "<group>"; };
+		0A736C0019587CEF007BDB92 /* KRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRTableViewController.m; path = ../KRTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				0A736BD919587CCD007BDB92 /* KRAppDelegate.h */,
 				0A736BDA19587CCD007BDB92 /* KRAppDelegate.m */,
 				0A736BDC19587CCD007BDB92 /* Main.storyboard */,
-				0A736BDF19587CCD007BDB92 /* KRViewController.h */,
-				0A736BE019587CCD007BDB92 /* KRViewController.m */,
+				0A736BFF19587CEF007BDB92 /* KRTableViewController.h */,
+				0A736C0019587CEF007BDB92 /* KRTableViewController.m */,
 				0A736BE219587CCD007BDB92 /* Images.xcassets */,
 				0A736BD119587CCD007BDB92 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A736BE119587CCD007BDB92 /* KRViewController.m in Sources */,
+				0A736C0119587CEF007BDB92 /* KRTableViewController.m in Sources */,
 				0A736BD719587CCD007BDB92 /* main.m in Sources */,
 				0A736BDB19587CCD007BDB92 /* KRAppDelegate.m in Sources */,
 			);
